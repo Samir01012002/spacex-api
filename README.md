@@ -51,3 +51,7 @@ $ npm run build
 # Para ejecutar ya la aplicación compilada
 $ npm run start:prod
 ```
+
+### Verificar su Ejecución
+
+Para verificar si está funcionando de manera correcta debe ir a http://localhost:3000/api y se abrirá una vista de Swagger para probrar los endpoints.

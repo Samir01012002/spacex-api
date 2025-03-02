@@ -74,6 +74,11 @@ export class LaunchesService {
       {},
     );
 
-    return yearStats;
+    const formattedStats = Object.keys(yearStats).map(year => ({
+      year: Number(year),
+      amount_of_launches: yearStats[year],
+    }));
+
+    return formattedStats;
   }
 }
