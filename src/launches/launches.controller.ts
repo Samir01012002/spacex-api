@@ -12,7 +12,7 @@ export class LaunchesController {
   }
 
   @Get('analytics/per-year')
-  analyticsPeryear() {
-    return this.launchesService.analyticsPeryear();
+  analyticsPerYear() {
+    return this.launchesService.analyticsPerYear();
   }
 }

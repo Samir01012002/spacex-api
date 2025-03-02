@@ -51,7 +51,7 @@ export class LaunchesService {
     };
   }
 
-  async analyticsPeryear() {
+  async analyticsPerYear() {
     const params: any = {
       TableName: envs.dynamodb_table,
     };
